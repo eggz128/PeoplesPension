@@ -29,6 +29,7 @@ namespace com.edgewords.webdrivertest.Utils
         {
 
             //string browser = TestContext.Parameters["browser"];
+            //A comment
 
             string browser = Environment.GetEnvironmentVariable("BrowserEnv");
             browser = browser.Replace("\"", "").Trim();
