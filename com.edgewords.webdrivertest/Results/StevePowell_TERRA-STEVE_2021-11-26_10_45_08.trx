@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="98e55756-b3dd-4cb2-9552-679e35f60025" name="StevePowell@TERRA-STEVE 2021-11-26 10:45:08" runUser="AzureAD\StevePowell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-11-26T10:45:08.1527894+00:00" queuing="2021-11-26T10:45:08.1527898+00:00" start="2021-11-26T10:44:54.9466405+00:00" finish="2021-11-26T10:46:09.1578775+00:00" />
+  <TestSettings name="default" id="9220f683-3590-4452-86e3-b12c7dcfb130">
+    <Deployment runDeploymentRoot="StevePowell_TERRA-STEVE_2021-11-26_10_45_08" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="0b487dd7-d800-4d0c-8544-b99cc8261a2a" testId="df9cb057-180a-2e8f-c5e7-c0c7d2e552c4" testName="MyDataDrivenTest(&quot;webdriver&quot;,&quot;notthepassword&quot;)" computerName="TERRA-STEVE" duration="00:00:11.4110260" startTime="2021-11-26T10:45:08.0999289+00:00" endTime="2021-11-26T10:45:19.5109468+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b487dd7-d800-4d0c-8544-b99cc8261a2a">
+      <Output>
+        <StdOut>The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Failed:Error</StdOut>
+        <ErrorInfo>
+          <Message>OpenQA.Selenium.UnhandledAlertException : Dismissed user prompt dialog: Error:The password is the wrong length. &#xD;
+</Message>
+          <StackTrace>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)&#xD;
+   at OpenQA.Selenium.By.&lt;.ctor&gt;b__11_0(ISearchContext context)&#xD;
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(By by)&#xD;
+   at com.edgewords.webdrivertest.Test_Cases.DataDrive.MyDataDrivenTest(String Username, String Password) in C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\Test_Cases\DataDrive.cs:line 25</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7735b643-9310-4df1-abea-dba32408bc93" testId="7e649d79-ac87-cb34-80e0-c4d83d07ff7d" testName="SecondTestA" computerName="TERRA-STEVE" duration="00:00:08.5010760" startTime="2021-11-26T10:45:29.9093351+00:00" endTime="2021-11-26T10:45:38.4104029+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7735b643-9310-4df1-abea-dba32408bc93">
+      <Output>
+        <StdOut>The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Test Finished!&#xD;
+Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8caf4b5-d31e-44d9-8df8-c95bdabb1ebe" testId="cb90e2d1-0e51-8de8-3780-952bfd756ec9" testName="MyDataDrivenTest(&quot;edgewords&quot;,&quot;edgewords123&quot;)" computerName="TERRA-STEVE" duration="00:00:12.1736830" startTime="2021-11-26T10:44:55.9228133+00:00" endTime="2021-11-26T10:45:08.0961080+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8caf4b5-d31e-44d9-8df8-c95bdabb1ebe">
+      <Output>
+        <StdOut>The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12ff211a-ce7b-4ec4-bb2c-acf12a7b713d" testId="95039754-8f02-3ebd-f0e6-6692a204159a" testName="selIDEDemo" computerName="TERRA-STEVE" duration="00:00:13.8665220" startTime="2021-11-26T10:45:38.4112668+00:00" endTime="2021-11-26T10:45:52.2777918+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12ff211a-ce7b-4ec4-bb2c-acf12a7b713d">
+      <Output>
+        <StdOut>The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+The heading is: Access and Authentication&#xD;
+The typed username was: edgewords&#xD;
+The captured text is: User is Logged in&#xD;
+Add Record&#xD;
+Edit Record&#xD;
+Remove Record&#xD;
+List Records&#xD;
+Log Out&#xD;
+Add A Record To the Database&#xD;
+Add&#xD;
+Name?&#xD;
+UserName?&#xD;
+Pin?&#xD;
+Password?&#xD;
+Submit Clear&#xD;
+©2014 Edgewords Limited&#xD;
+Done!&#xD;
+Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d5cbd5b-08c3-4fc9-8510-213aea1f120b" testId="6d2c3667-c760-c995-ea42-c1c9f3dc02a4" testName="SecondTestB" computerName="TERRA-STEVE" duration="00:00:10.3936100" startTime="2021-11-26T10:45:19.5156088+00:00" endTime="2021-11-26T10:45:29.9092089+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d5cbd5b-08c3-4fc9-8510-213aea1f120b">
+      <Output>
+        <StdOut>The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1d1939ba-49be-49c6-8f62-00cbc0dd1aba" testId="ed9df7a7-736d-15bf-5e89-8851166e3b5e" testName="Test1" computerName="TERRA-STEVE" duration="00:00:07.7708470" startTime="2021-11-26T10:46:01.3204807+00:00" endTime="2021-11-26T10:46:09.0913220+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d1939ba-49be-49c6-8f62-00cbc0dd1aba">
+      <Output>
+        <StdOut>The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Passed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76ac7240-5578-4291-bdb7-bb43f8de1381" testId="bfb839ca-c5ae-f56f-912f-a339cc58494a" testName="CheckLogin" computerName="TERRA-STEVE" duration="00:00:09.0411420" startTime="2021-11-26T10:45:52.2788925+00:00" endTime="2021-11-26T10:46:01.3200339+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76ac7240-5578-4291-bdb7-bb43f8de1381">
+      <Output>
+        <StdOut>The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Failed:Error</StdOut>
+        <ErrorInfo>
+          <Message>OpenQA.Selenium.NoSuchElementException : Unable to locate element: Login To Restricted Area</Message>
+          <StackTrace>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)&#xD;
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)&#xD;
+   at OpenQA.Selenium.By.&lt;.ctor&gt;b__11_0(ISearchContext context)&#xD;
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(By by)&#xD;
+   at com.edgewords.webdrivertest.POM_Pages.HomePagePOM.get_LoginLink() in C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\POM_Pages\HomePagePOM.cs:line 21&#xD;
+   at com.edgewords.webdrivertest.POM_Pages.HomePagePOM.LoginToDBSite() in C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\POM_Pages\HomePagePOM.cs:line 27&#xD;
+   at com.edgewords.webdrivertest.Test_Cases.TestThatPOMs.CheckLogin() in C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\Test_Cases\TestThatPOMs.cs:line 23</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="selIDEDemo" storage="c:\users\stevepowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" id="95039754-8f02-3ebd-f0e6-6692a204159a">
+      <Execution id="12ff211a-ce7b-4ec4-bb2c-acf12a7b713d" />
+      <TestMethod codeBase="C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\Debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivertest.Test_Cases.SelIDEDemoTest" name="selIDEDemo" />
+    </UnitTest>
+    <UnitTest name="CheckLogin" storage="c:\users\stevepowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" id="bfb839ca-c5ae-f56f-912f-a339cc58494a">
+      <Execution id="76ac7240-5578-4291-bdb7-bb43f8de1381" />
+      <TestMethod codeBase="C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\Debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivertest.Test_Cases.TestThatPOMs" name="CheckLogin" />
+    </UnitTest>
+    <UnitTest name="SecondTestB" storage="c:\users\stevepowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" id="6d2c3667-c760-c995-ea42-c1c9f3dc02a4">
+      <Execution id="2d5cbd5b-08c3-4fc9-8510-213aea1f120b" />
+      <TestMethod codeBase="C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\Debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivertest.Test_Cases.FirstTest" name="SecondTestB" />
+    </UnitTest>
+    <UnitTest name="MyDataDrivenTest(&quot;webdriver&quot;,&quot;notthepassword&quot;)" storage="c:\users\stevepowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" id="df9cb057-180a-2e8f-c5e7-c0c7d2e552c4">
+      <Execution id="0b487dd7-d800-4d0c-8544-b99cc8261a2a" />
+      <TestMethod codeBase="C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\Debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivertest.Test_Cases.DataDrive" name="MyDataDrivenTest(&quot;webdriver&quot;,&quot;notthepassword&quot;)" />
+    </UnitTest>
+    <UnitTest name="SecondTestA" storage="c:\users\stevepowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" id="7e649d79-ac87-cb34-80e0-c4d83d07ff7d">
+      <Execution id="7735b643-9310-4df1-abea-dba32408bc93" />
+      <TestMethod codeBase="C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\Debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivertest.Test_Cases.FirstTest" name="SecondTestA" />
+    </UnitTest>
+    <UnitTest name="Test1" storage="c:\users\stevepowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" id="ed9df7a7-736d-15bf-5e89-8851166e3b5e">
+      <Execution id="1d1939ba-49be-49c6-8f62-00cbc0dd1aba" />
+      <TestMethod codeBase="C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\Debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivertest.Tests" name="Test1" />
+    </UnitTest>
+    <UnitTest name="MyDataDrivenTest(&quot;edgewords&quot;,&quot;edgewords123&quot;)" storage="c:\users\stevepowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" id="cb90e2d1-0e51-8de8-3780-952bfd756ec9">
+      <Execution id="e8caf4b5-d31e-44d9-8df8-c95bdabb1ebe" />
+      <TestMethod codeBase="C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\Debug\netcoreapp3.1\com.edgewords.webdrivertest.dll" adapterTypeName="executor://nunit3testexecutor/" className="com.edgewords.webdrivertest.Test_Cases.DataDrive" name="MyDataDrivenTest(&quot;edgewords&quot;,&quot;edgewords123&quot;)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="df9cb057-180a-2e8f-c5e7-c0c7d2e552c4" executionId="0b487dd7-d800-4d0c-8544-b99cc8261a2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e649d79-ac87-cb34-80e0-c4d83d07ff7d" executionId="7735b643-9310-4df1-abea-dba32408bc93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb90e2d1-0e51-8de8-3780-952bfd756ec9" executionId="e8caf4b5-d31e-44d9-8df8-c95bdabb1ebe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95039754-8f02-3ebd-f0e6-6692a204159a" executionId="12ff211a-ce7b-4ec4-bb2c-acf12a7b713d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d2c3667-c760-c995-ea42-c1c9f3dc02a4" executionId="2d5cbd5b-08c3-4fc9-8510-213aea1f120b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed9df7a7-736d-15bf-5e89-8851166e3b5e" executionId="1d1939ba-49be-49c6-8f62-00cbc0dd1aba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfb839ca-c5ae-f56f-912f-a339cc58494a" executionId="76ac7240-5578-4291-bdb7-bb43f8de1381" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="5" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.1.0.0: Test execution started&#xD;
+Running all tests in C:\Users\StevePowell\source\repos\com.edgewords.webdrivertest\com.edgewords.webdrivertest\bin\Debug\netcoreapp3.1\com.edgewords.webdrivertest.dll&#xD;
+   NUnit3TestExecutor discovered 7 of 7 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Passed&#xD;
+&#xD;
+The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Failed:Error&#xD;
+&#xD;
+The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Passed&#xD;
+&#xD;
+The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Test Finished!&#xD;
+Passed&#xD;
+&#xD;
+The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+The heading is: Access and Authentication&#xD;
+The typed username was: edgewords&#xD;
+The captured text is: User is Logged in&#xD;
+Add Record&#xD;
+Edit Record&#xD;
+Remove Record&#xD;
+List Records&#xD;
+Log Out&#xD;
+Add A Record To the Database&#xD;
+Add&#xD;
+Name?&#xD;
+UserName?&#xD;
+Pin?&#xD;
+Password?&#xD;
+Submit Clear&#xD;
+©2014 Edgewords Limited&#xD;
+Done!&#xD;
+Passed&#xD;
+&#xD;
+The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Failed:Error&#xD;
+&#xD;
+The browser chosen was: firefox&#xD;
+Starting browser&#xD;
+Passed&#xD;
+&#xD;
+NUnit Adapter 4.1.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

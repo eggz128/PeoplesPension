@@ -1,0 +1,41 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="com.edgewords.webdrivertest" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="com.edgewords.webdrivertest.Test_Cases" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="SelIDEDemoTest" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="com.edgewords.webdrivertest.Test_Cases.SelIDEDemoTest.selIDEDemo" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="selIDEDemo" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="FirstTest" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="com.edgewords.webdrivertest.Test_Cases.FirstTest.SecondTestB" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="SecondTestB" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
